@@ -20,7 +20,7 @@ button {
         background-color: @nav-bg;
         color: @header-font-color;
     }
-    @media screen {
+    @set {
         width: 100%;
         padding-left: 7rem;
         padding-right: 7rem;
@@ -31,7 +31,7 @@ button {
 
 //Mobile
 .phone(@set) {
-    @media (max-width: @phone) {
+    @media (max-width: @set) {
         @set();
     }
 }
