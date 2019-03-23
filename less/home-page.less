@@ -45,25 +45,39 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-
+    @media screen {
+      flex-direction: column;
+      flex-flow: column-reverse;
+      width: 100%;
+      padding: 10px;
+    }
     .walk-text {
       width: 50%;
 
       h3 {
         margin-bottom: 10px;
+        @media screen {
+          margin-top: 1rem;
+        }
       }
 
       p {
         margin-bottom: 26px;
       }
-
-      .btn {
+      @media screen {
+        width: 100%;
+      }
+      button {
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media screen {
+        width: 100%;
+        margin-left: 0;
+      }
       
       img {
         width: 100%;
