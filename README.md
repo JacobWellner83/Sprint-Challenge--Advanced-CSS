@@ -40,11 +40,11 @@ Adaptive websites set a different layout at each breakpoint set by a devices siz
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first design focuses on being fully adaptive to the given screen size and resolution over the mass of content. In mobile first design some elements may be hidden or arranged with a smaller resolution and different flow in mind. Desktop first design involves planning for large displays that can solidly incorporate a wealth of information at a high resolution. Each design is viable option for a given majority of web traffic.
+Mobile first design focuses on being fully adaptive to the given screen size and resolution over the mass of content. In mobile first design some elements may be hidden or arranged with a smaller resolution and different flow in mind. Desktop first design involves planning for large displays that can solidly incorporate a wealth of information at a high resolution. Each design is a viable option for a given majority of web traffic.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-When using rem units you are referencing a base root font-size/measurement setting for the entire page. When you set a font-size as a percentage of rem you are setting it at a particular percentage of the given rem for that page. Setting the html font-size to 62.5% is a specific technique to change font-sizing from the default of 16px to 10px (10 is 62.5% of 16) so that rem sizing is done in a base10 system. Thusly if a font size in a given element, p { font-size: 1.8em; } the font in the p element will be 18px or 18pt.
+When using rem units you are referencing a base root font-size/measurement setting for the entire page. When you set a font-size as a percentage of rem you are setting it at a particular percentage of the given rem for that page. Setting the html font-size to 62.5% is a specific technique to change font-sizing from the default of 16px to 10px (10 is 62.5% of 16) so that rem sizing is done in a base10 system. Thusly, if a font size is set in a given element, p { font-size: 1.8em; } the font in the p element will be 18px or 18pt.
 
 4. How would you describe preprocessing to someone new to CSS?
 
