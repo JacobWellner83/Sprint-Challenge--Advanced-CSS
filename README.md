@@ -1,7 +1,7 @@
-!(img/Screenshot1.png)
-!(img/Screenshot2.png)
-!(img/Screenshot3.png)
-!(img/Screenshot4.png)
+![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot1.png")
+![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot2.png")
+![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot3.png")
+![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot4.png.png")
 
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
