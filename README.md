@@ -1,5 +1,9 @@
-# Sprint Challenge: Advanced CSS - Space Walkers Web Page
+<img src="img/Screenshot1.pngScreenshot1>
+<img src="img/Screenshot1.pngScreenshot2>
+<img src="img/Screenshot1.pngScreenshot3>
+<img src="img/Screenshot1.pngScreenshot4>
 
+# Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
