@@ -1,3 +1,5 @@
+Included screenshots of finished site but was unable to properly implant them in the README. They are included in the img folder.
+
 ![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot1.png")
 ![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot2.png")
 ![Screenshot]("https://github.com/JacobWellner83/Sprint-Challenge--Advanced-CSS/blob/jacob-wellner/img/Screenshot3.png")
