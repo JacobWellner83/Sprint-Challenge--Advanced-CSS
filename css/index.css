@@ -10,6 +10,10 @@ button {
   font-weight: bold;
   font-size: 1.75rem;
 }
+button:hover {
+  background-color: #F6F6F6;
+  color: #23293B;
+}
 .button-base {
   border-radius: 1rem;
   font-size: 1.5rem;
@@ -21,6 +25,10 @@ button {
   color: #F6F6F6;
   font-weight: bold;
   font-size: 1.75rem;
+}
+.button-base:hover {
+  background-color: #F6F6F6;
+  color: #23293B;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
