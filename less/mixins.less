@@ -1,5 +1,23 @@
 // Mixins Here
 
+//Button
+button {
+    .button-base()
+}
+
+.button-base {
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: @header-font-color;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: @nav-bg; 
+    font-weight: bold;
+    font-size: 1.75rem; 
+}
+
 //Mobile
 .phone(@set) {
     @media (max-width: @phone) {
