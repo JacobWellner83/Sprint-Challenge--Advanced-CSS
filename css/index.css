@@ -216,6 +216,15 @@ p {
   font-size: 2rem;
   padding: 1rem;
 }
+.nav-header a:hover,
+.nav-header a:visited,
+.nav-header a:link,
+.nav-header a:active {
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #23293B;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
