@@ -1,7 +1,7 @@
-<img src="img/Screenshot1.pngScreenshot1>
-<img src="img/Screenshot1.pngScreenshot2>
-<img src="img/Screenshot1.pngScreenshot3>
-<img src="img/Screenshot1.pngScreenshot4>
+!(img/Screenshot1.png)
+!(img/Screenshot2.png)
+!(img/Screenshot3.png)
+!(img/Screenshot4.png)
 
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
