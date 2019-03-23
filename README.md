@@ -36,13 +36,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites set a different layout at each breakpoint set by a devices size. They do not alter after that. A fully responsive website responds to the resizing of a window to alter the layout using CSS media queries.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first design focuses on being fully adaptive to the given screen size and resolution over the mass of content. In mobile first design some elements may be hidden or arranged with a smaller resolution and different flow in mind. Desktop first design involves planning for large displays that can solidly incorporate a wealth of information at a high resolution. Each design is viable option for a given majority of web traffic.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+When using rem units you are referencing a base root font-size/measurement setting for the entire page. When you set a font-size as a percentage of rem you are setting it at a particular percentage of the given rem for that page. Setting the html font-size to 62.5% is a specific technique to change font-sizing from the default of 16px to 10px (10 is 62.5% of 16) so that rem sizing is done in a base10 system. Thusly if a font size in a given element, p { font-size: 1.8em; } the font in the p element will be 18px or 18pt.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is using a preprocessor (a kind of program) that understands a styling language and also understands a short-hand version of that styling language to produce easy to use styling changes and code rapidly. By learning the preprocessors shorthand we can input a smaller amount of code into a preprocessor and it will produce a large amount of fluid styling code. This makes styling more efficient and versatile as we can make quick changes to specific sections of the code, spread throughout, on the fly.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+The most interesting concept for me is the organization that can be achieved in our styling structure. It becomes far more easy to read and understand.
+The concept that gives me the most trouble is parametric mixins as they are essentially similar to mathematical functions which set variables as words instead of representational symbols and are capable of taking other functions as arguments. This makes gaining a solid understanding of the correct syntax required to make them work a challenge.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
