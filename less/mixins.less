@@ -1,1 +1,54 @@
 // Mixins Here
+
+//Button
+button {
+    .button-base()
+}
+
+.button-base {
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: @header-font-color;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: @nav-bg; 
+    font-weight: bold;
+    font-size: 1.75rem; 
+    &:hover {
+        background-color: @nav-bg;
+        color: @header-font-color;
+    }
+    @media ( max-width: @phone ) {
+        width: 100%;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.nav-style {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+//Mobile
+@media all and (max-width: 500px) {
+    width : @phone;
+}
+
+//Stretch Goal
+.img-rotation {
+    border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+    img:hover {
+     -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+}
