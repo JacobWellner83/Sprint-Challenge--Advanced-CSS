@@ -58,6 +58,15 @@ button:hover {
 @media all and (max-width: 500px) {
   width: 500px;
 }
+.img-rotation {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -366,4 +375,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
